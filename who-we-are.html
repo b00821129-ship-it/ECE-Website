@@ -1,68 +1,211 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Who We Are - ESSEC Club of Economics</title>
+  <title>Who We Are — ESSEC Club of Economics</title>
+  <meta name="description"
+    content="ESSEC Club of Economics — France's #1 student finance association. Discover our mission, sectors, and team of passionate students.">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=Google+Sans+Flex:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <style>
-    body { font-family: 'Google Sans Flex', system-ui, sans-serif; }
+    :root {
+      --font-sans: 'Google Sans Flex', 'Inter', system-ui, sans-serif;
+      --font-serif: 'Instrument Serif', serif;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animate-fade-in-up {
+      animation: fadeInUp 0.8s ease-out forwards;
+    }
+
+    .delay-1 {
+      animation-delay: 0.1s;
+      opacity: 0;
+    }
+
+    .delay-2 {
+      animation-delay: 0.2s;
+      opacity: 0;
+    }
+
+    .delay-3 {
+      animation-delay: 0.3s;
+      opacity: 0;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .glass-card:hover {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .sector-icon {
+      transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .group:hover .sector-icon {
+      transform: scale(1.1);
+    }
+
+    @keyframes counter {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .stat-animate {
+      animation: counter 0.6s ease-out forwards;
+    }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-900">
+
+<body class="bg-slate-950 text-white overflow-x-hidden">
 
   <!-- Navigation -->
-  <nav class="z-50 w-full bg-slate-900 flex justify-between items-center px-8 py-6">
-    <div class="flex items-center gap-4">
-      <img src="https://i.ibb.co/FL0kfkRV/Screenshot-2026-02-22-at-19-32-45-removebg-preview-1.png" alt="ESSEC Club of Economics Logo" class="h-12 w-auto object-contain">
-      <span class="text-white text-2xl font-bold tracking-tight">ESSEC Club of Economics</span>
+  <nav class="z-50 w-full fixed top-0 left-0 pointer-events-none">
+    <div class="pointer-events-auto fixed z-50 transition-transform duration-500 ease-in-out top-6 right-6">
+      <div class="flex gap-3 items-center">
+        <div
+          class="hidden md:flex gap-6 transition-all duration-300 hover:bg-black/50 hover:border-white/20 bg-black/20 h-12 border rounded-full px-6 backdrop-blur-sm items-center border-white/10">
+          <a href="index.html"
+            class="hover:text-blue-400 transition-colors text-base font-medium text-white/90">Home</a>
+          <a href="who-we-are.html" class="text-blue-400 transition-colors text-base font-medium">About</a>
+          <a href="events.html"
+            class="hover:text-blue-400 transition-colors text-base font-medium text-white/90">Events</a>
+          <a href="events.html#contact"
+            class="hover:text-blue-400 transition-colors text-base font-medium text-white/90">Contact</a>
+        </div>
+      </div>
     </div>
-    <div class="hidden md:flex gap-8 items-center">
-      <a href="generated-page.html" class="hover:text-blue-400 transition-colors text-base font-medium text-white/90">Home</a>
-      <a href="who-we-are.html" class="hover:text-blue-400 transition-colors text-base font-medium text-blue-400">About</a>
-      <a href="events.html" class="hover:text-blue-400 transition-colors text-base font-medium text-white/90">Events</a>
-      <a href="#contact" class="hover:text-blue-400 transition-colors text-base font-medium text-white/90">Contact</a>
+    <div class="z-10 absolute top-8 left-8 pointer-events-auto">
+      <a href="index.html" class="hover:opacity-80 transition-opacity">
+        <img src="https://i.ibb.co/FL0kfkRV/Screenshot-2026-02-22-at-19-32-45-removebg-preview-1.png" alt="ECE Logo"
+          class="w-auto h-14 object-contain invert brightness-0">
+      </a>
     </div>
   </nav>
 
   <!-- Hero Section -->
-  <header class="bg-slate-900 text-white py-20 px-6">
-    <div class="max-w-screen-xl mx-auto text-center">
-      <h1 class="text-5xl md:text-6xl font-bold tracking-tight mb-6">Who We Are</h1>
-      <p class="text-xl text-slate-300 max-w-3xl mx-auto">At ESSEC Club of Economics, we prepare exceptional students for future key roles in finance and economics through advanced training, mentorship, and industry connections.</p>
+  <header class="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950"></div>
+    <div
+      class="absolute top-1/3 right-1/4 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px] pointer-events-none">
+    </div>
+    <div
+      class="absolute bottom-1/4 left-1/4 w-[400px] h-[400px] bg-indigo-500/8 rounded-full blur-[100px] pointer-events-none">
+    </div>
+    <div class="absolute inset-0 opacity-[0.03]"
+      style="background-image: linear-gradient(rgba(255,255,255,.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.1) 1px, transparent 1px); background-size: 60px 60px;">
+    </div>
+
+    <div class="relative z-10 max-w-screen-xl mx-auto px-6 text-center">
+      <h1
+        class="animate-fade-in-up text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-8 bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-white/40">
+        Who We Are</h1>
+      <p class="animate-fade-in-up delay-1 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
+        Preparing exceptional ESSEC students for future key roles in finance and economics through advanced training,
+        mentorship, and industry connections.</p>
     </div>
   </header>
 
-  <!-- Mission Section -->
-  <section class="py-20 px-6 bg-white">
+  <!-- Mission Section with Stats -->
+  <section class="py-24 px-6 relative">
     <div class="max-w-screen-xl mx-auto">
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h2 class="text-4xl font-bold text-slate-900 mb-6">Our Mission</h2>
-          <p class="text-lg text-slate-600 mb-4">Our mission is simple: inspire and prepare exceptional ESSEC students for success by providing advanced financial training, industry-focused insights, and exclusive professional opportunities.</p>
-          <p class="text-lg text-slate-600 mb-4">We empower our members to excel in competitive global markets and strive to create a meaningful impact in the industries they are passionate about.</p>
-          <p class="text-lg text-slate-600">Our monthly stock pitches allow our members to enhance their financial and market analysis skills. We aim to create an environment allowing for our members to challenge, guide, and support one another because we believe in the power of collective growth.</p>
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <!-- Left: Mission Text -->
+        <div class="reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="h-px w-10 bg-blue-500"></div>
+            <span class="text-sm font-medium text-blue-400 uppercase tracking-widest">Our Mission</span>
+          </div>
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-white mb-6 leading-tight">Inspire and prepare
+            exceptional students for success</h2>
+          <div class="space-y-4 text-slate-400 leading-relaxed">
+            <p>We provide advanced financial training, industry-focused insights, and exclusive professional
+              opportunities. We empower our members to excel in competitive global markets.</p>
+            <p>Our monthly stock pitches allow our members to enhance their financial and market analysis skills. We
+              create an environment where members challenge, guide, and support one another because we believe in the
+              power of collective growth.</p>
+            <p>Our events, courses, partners, and mentorship programs help students become impactful future
+              professionals in the industries they are passionate about.</p>
+          </div>
         </div>
-        <div class="bg-gradient-to-br from-blue-500 to-blue-700 rounded-3xl p-10 text-white">
-          <div class="grid grid-cols-2 gap-8 text-center">
-            <div>
-              <p class="text-5xl font-bold">#1</p>
-              <p class="text-lg mt-2">Rank in France</p>
+
+        <!-- Right: Stats Grid -->
+        <div class="reveal">
+          <div class="grid grid-cols-2 gap-5">
+            <div
+              class="glass-card rounded-3xl p-8 text-center group hover:border-blue-500/20 transition-all duration-500">
+              <p
+                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600 mb-2">
+                #1</p>
+              <p class="text-sm text-slate-400 font-medium">Rank in France</p>
             </div>
-            <div>
-              <p class="text-5xl font-bold">100+</p>
-              <p class="text-lg mt-2">Members</p>
+            <div
+              class="glass-card rounded-3xl p-8 text-center group hover:border-blue-500/20 transition-all duration-500">
+              <p
+                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600 mb-2">
+                100+</p>
+              <p class="text-sm text-slate-400 font-medium">Members</p>
             </div>
-            <div>
-              <p class="text-5xl font-bold">50+</p>
-              <p class="text-lg mt-2">Reports Published</p>
+            <div
+              class="glass-card rounded-3xl p-8 text-center group hover:border-blue-500/20 transition-all duration-500">
+              <p
+                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600 mb-2">
+                50+</p>
+              <p class="text-sm text-slate-400 font-medium">Reports Published</p>
             </div>
-            <div>
-              <p class="text-5xl font-bold">12</p>
-              <p class="text-lg mt-2">Sectors Covered</p>
+            <div
+              class="glass-card rounded-3xl p-8 text-center group hover:border-blue-500/20 transition-all duration-500">
+              <p
+                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600 mb-2">
+                12</p>
+              <p class="text-sm text-slate-400 font-medium">Sectors Covered</p>
             </div>
           </div>
         </div>
@@ -71,197 +214,324 @@
   </section>
 
   <!-- Sectors Section -->
-  <section class="py-20 px-6 bg-slate-100">
-    <div class="max-w-screen-xl mx-auto">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-slate-900 mb-4">Our Sectors</h2>
-        <p class="text-lg text-slate-600 max-w-2xl mx-auto">Each sector is driven by motivated individuals, leading to high-quality stock pitches and successful external events. These strengths position us as the leading finance association in France.</p>
+  <section id="sectors" class="py-24 px-6 relative">
+    <div
+      class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[600px] bg-blue-500/5 rounded-full blur-[150px] pointer-events-none">
+    </div>
+
+    <div class="max-w-screen-xl mx-auto relative z-10">
+      <div class="reveal text-center mb-16">
+        <span class="text-sm font-medium text-blue-400 uppercase tracking-widest">Research</span>
+        <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-white mt-4 mb-4">Our Sectors</h2>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto">Each sector is driven by motivated individuals, leading to
+          high-quality stock pitches and successful external events.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Sector 1: IB&A -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <!-- IB&A -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-blue-500/10 border border-blue-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Investment Banking & Advisory</h3>
-          <p class="text-slate-600">Covering capital markets, IPOs, debt financing, and strategic advisory services for corporate clients.</p>
-          <p class="text-sm text-blue-600 font-medium mt-4">Head: Jacques Ferrandez</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-blue-300 transition-colors">Investment Banking &
+            Advisory</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Capital markets, IPOs, debt financing, and strategic
+            advisory services.</p>
+          <p class="text-xs text-blue-400 font-medium">Head: Jacques Ferrandez</p>
         </div>
 
-        <!-- Sector 2: M&A -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+        <!-- M&A -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-emerald-500/10 border border-emerald-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Mergers & Acquisitions</h3>
-          <p class="text-slate-600">Analyzing corporate transactions, valuations, deal structures, and post-merger integration strategies.</p>
-          <p class="text-sm text-green-600 font-medium mt-4">Head: Malena Mir García</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-emerald-300 transition-colors">Mergers &
+            Acquisitions</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Corporate transactions, valuations, deal structures,
+            and post-merger integration.</p>
+          <p class="text-xs text-emerald-400 font-medium">Head: Malena Mir García</p>
         </div>
 
-        <!-- Sector 3: Credit & Alternatives -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-purple-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+        <!-- Credit & Alternatives -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-violet-500/10 border border-violet-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Credit & Alternatives</h3>
-          <p class="text-slate-600">Exploring private credit, distressed debt, hedge funds, and alternative investment strategies.</p>
-          <p class="text-sm text-purple-600 font-medium mt-4">Head: Loïc Demesmay</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-violet-300 transition-colors">Credit &
+            Alternatives</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Private credit, distressed debt, hedge funds, and
+            alternative investment strategies.</p>
+          <p class="text-xs text-violet-400 font-medium">Head: Loïc Demesmay</p>
         </div>
 
-        <!-- Sector 4: Commodities -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-amber-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+        <!-- Commodities -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-amber-500/10 border border-amber-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-amber-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Commodities</h3>
-          <p class="text-slate-600">Analyzing global commodity markets including energy, metals, agriculture, and trading strategies.</p>
-          <p class="text-sm text-amber-600 font-medium mt-4">Head: Tao Martin-Nasr</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-amber-300 transition-colors">Commodities</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Global commodity markets including energy, metals,
+            agriculture, and trading strategies.</p>
+          <p class="text-xs text-amber-400 font-medium">Head: Tao Martin-Nasr</p>
         </div>
 
-        <!-- Sector 5: Consumables -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+        <!-- Consumables -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-rose-500/10 border border-rose-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-rose-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Consumables</h3>
-          <p class="text-slate-600">Covering consumer goods, retail, food & beverage, and FMCG sector analysis.</p>
-          <p class="text-sm text-red-600 font-medium mt-4">Head: Klaus Chamoun Marinho de Azevedo</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-rose-300 transition-colors">Consumables</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Consumer goods, retail, food & beverage, and FMCG
+            sector analysis.</p>
+          <p class="text-xs text-rose-400 font-medium">Head: Klaus Chamoun M. de Azevedo</p>
         </div>
 
-        <!-- Sector 6: Pharmaceuticals -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-teal-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-teal-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+        <!-- Pharmaceuticals -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-teal-500/10 border border-teal-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Pharmaceuticals</h3>
-          <p class="text-slate-600">Analyzing healthcare, biotech, pharmaceutical companies, and medical device markets.</p>
-          <p class="text-sm text-teal-600 font-medium mt-4">Head: Jeanne Fevrier</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-teal-300 transition-colors">Pharmaceuticals</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Healthcare, biotech, pharmaceutical companies, and
+            medical device markets.</p>
+          <p class="text-xs text-teal-400 font-medium">Head: Jeanne Fevrier</p>
         </div>
 
-        <!-- Sector 7: TMT -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+        <!-- TMT -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-indigo-500/10 border border-indigo-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Technology, Media & Telecom</h3>
-          <p class="text-slate-600">Covering tech giants, digital media, telecommunications, and emerging technology trends.</p>
-          <p class="text-sm text-indigo-600 font-medium mt-4">Head: Cédric Lambert</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-indigo-300 transition-colors">Technology, Media
+            & Telecom</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Tech giants, digital media, telecommunications, and
+            emerging technology trends.</p>
+          <p class="text-xs text-indigo-400 font-medium">Head: Cédric Lambert</p>
         </div>
 
-        <!-- Sector 8: Energy & Industrials -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-orange-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        <!-- Energy & Industrials -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-orange-500/10 border border-orange-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Energy & Industrials</h3>
-          <p class="text-slate-600">Analyzing oil & gas, renewable energy, utilities, and industrial manufacturing sectors.</p>
-          <p class="text-sm text-orange-600 font-medium mt-4">Head: Arda Okta</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-orange-300 transition-colors">Energy &
+            Industrials</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Oil & gas, renewable energy, utilities, and industrial
+            manufacturing sectors.</p>
+          <p class="text-xs text-orange-400 font-medium">Head: Arda Okta</p>
         </div>
 
-        <!-- Sector 9: Real Estate -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-cyan-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+        <!-- Real Estate -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-cyan-500/10 border border-cyan-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Real Estate</h3>
-          <p class="text-slate-600">Covering commercial and residential property markets, REITs, and real estate investment strategies.</p>
-          <p class="text-sm text-cyan-600 font-medium mt-4">Head: Yu-Chen Huang</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors">Real Estate</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Commercial and residential property markets, REITs, and
+            real estate investment.</p>
+          <p class="text-xs text-cyan-400 font-medium">Head: Yu-Chen Huang</p>
         </div>
 
-        <!-- Sector 10: Luxury -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-pink-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path></svg>
+        <!-- Luxury -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-pink-500/10 border border-pink-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Luxury</h3>
-          <p class="text-slate-600">Analyzing luxury goods, fashion houses, premium brands, and high-end consumer markets.</p>
-          <p class="text-sm text-pink-600 font-medium mt-4">Head: Noé Dugay</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-pink-300 transition-colors">Luxury</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Luxury goods, fashion houses, premium brands, and
+            high-end consumer markets.</p>
+          <p class="text-xs text-pink-400 font-medium">Head: Noé Dugay</p>
         </div>
 
-        <!-- Sector 11: FIG -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-slate-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <!-- FIG -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-slate-400/10 border border-slate-400/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Financial Institutions Group</h3>
-          <p class="text-slate-600">Covering banks, insurance companies, asset managers, and fintech through equity research.</p>
-          <p class="text-sm text-slate-600 font-medium mt-4">Co-Heads: Arthur Cartier & Ruben Grossman</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-slate-200 transition-colors">Financial
+            Institutions Group</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Banks, insurance companies, asset managers, and fintech
+            through equity research.</p>
+          <p class="text-xs text-slate-300 font-medium">Co-Heads: Arthur Cartier & Ruben Grossman</p>
         </div>
 
-        <!-- Sector 12: Portfolio Management -->
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-          <div class="w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center mb-6">
-            <svg class="w-7 h-7 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+        <!-- Portfolio Management -->
+        <div class="reveal group glass-card rounded-3xl p-7 transition-all duration-500 hover:-translate-y-1">
+          <div
+            class="sector-icon w-12 h-12 bg-emerald-500/10 border border-emerald-500/20 rounded-xl flex items-center justify-center mb-5">
+            <svg class="w-6 h-6 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Portfolio Management</h3>
-          <p class="text-slate-600">Managing investment portfolios, asset allocation strategies, and risk management frameworks.</p>
-          <p class="text-sm text-emerald-600 font-medium mt-4">Co-Heads: Merlin Boris & Oscar Caudreliez</p>
+          <h3 class="text-lg font-bold text-white mb-2 group-hover:text-emerald-300 transition-colors">Portfolio
+            Management</h3>
+          <p class="text-sm text-slate-400 leading-relaxed mb-4">Investment portfolios, asset allocation strategies, and
+            risk management frameworks.</p>
+          <p class="text-xs text-emerald-400 font-medium">Co-Heads: Merlin Boris & Oscar Caudreliez</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Support Teams Section -->
-  <section class="py-20 px-6 bg-white">
+  <!-- Support Teams -->
+  <section class="py-24 px-6 relative">
     <div class="max-w-screen-xl mx-auto">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl font-bold text-slate-900 mb-4">Support Teams</h2>
-        <p class="text-lg text-slate-600 max-w-2xl mx-auto">Our support teams ensure smooth operations and maximize our impact through partnerships, publications, and communications.</p>
+      <div class="reveal text-center mb-16">
+        <span class="text-sm font-medium text-blue-400 uppercase tracking-widest">Operations</span>
+        <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-white mt-4 mb-4">Support Teams</h2>
+        <p class="text-lg text-slate-400 max-w-2xl mx-auto">Ensuring smooth operations and maximizing our impact through
+          partnerships, publications, and communications.</p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <!-- Partnerships -->
-        <div class="bg-slate-50 rounded-2xl p-8 text-center">
-          <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+        <div
+          class="reveal glass-card rounded-3xl p-8 text-center group hover:border-blue-500/20 transition-all duration-500">
+          <div
+            class="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-blue-600/20 border border-blue-500/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+            <svg class="w-7 h-7 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Partnerships</h3>
-          <p class="text-slate-600 mb-4">Building relationships with industry leaders, sponsors, and academic partners.</p>
-          <p class="text-sm text-blue-600 font-medium">Head: Avi Kumar</p>
+          <h3 class="text-xl font-bold text-white mb-3 group-hover:text-blue-300 transition-colors">Partnerships</h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">Building relationships with industry leaders, sponsors,
+            and academic partners.</p>
+          <p class="text-xs text-blue-400 font-medium">Head: Avi Kumar</p>
         </div>
 
         <!-- Publications -->
-        <div class="bg-slate-50 rounded-2xl p-8 text-center">
-          <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+        <div
+          class="reveal glass-card rounded-3xl p-8 text-center group hover:border-emerald-500/20 transition-all duration-500">
+          <div
+            class="w-16 h-16 bg-gradient-to-br from-emerald-500/20 to-emerald-600/20 border border-emerald-500/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+            <svg class="w-7 h-7 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Publications</h3>
-          <p class="text-slate-600 mb-4">Creating high-quality research reports, newsletters, and educational content.</p>
-          <p class="text-sm text-green-600 font-medium">Head: Maja Banys</p>
+          <h3 class="text-xl font-bold text-white mb-3 group-hover:text-emerald-300 transition-colors">Publications</h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">Creating high-quality research reports, newsletters,
+            and educational content.</p>
+          <p class="text-xs text-emerald-400 font-medium">Head: Maja Banys</p>
         </div>
 
         <!-- Communications -->
-        <div class="bg-slate-50 rounded-2xl p-8 text-center">
-          <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
-            <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+        <div
+          class="reveal glass-card rounded-3xl p-8 text-center group hover:border-violet-500/20 transition-all duration-500">
+          <div
+            class="w-16 h-16 bg-gradient-to-br from-violet-500/20 to-violet-600/20 border border-violet-500/20 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+            <svg class="w-7 h-7 text-violet-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+            </svg>
           </div>
-          <h3 class="text-xl font-bold text-slate-900 mb-3">Communications</h3>
-          <p class="text-slate-600 mb-4">Managing social media, branding, and external communications.</p>
-          <p class="text-sm text-purple-600 font-medium">Head: Tom Couget</p>
+          <h3 class="text-xl font-bold text-white mb-3 group-hover:text-violet-300 transition-colors">Communications
+          </h3>
+          <p class="text-sm text-slate-400 mb-4 leading-relaxed">Managing social media, branding, and external
+            communications.</p>
+          <p class="text-xs text-violet-400 font-medium">Head: Tom Couget</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Singapore Branch Section -->
-  <section class="py-20 px-6 bg-slate-900 text-white">
-    <div class="max-w-screen-xl mx-auto">
-      <div class="grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h2 class="text-4xl font-bold mb-6">ECE Singapore Branch</h2>
-          <p class="text-lg text-slate-300 mb-4">At ESSEC Club of Economics, we bridge our European roots with the dynamic markets of the Asia-Pacific through our Singapore branch.</p>
-          <p class="text-lg text-slate-300 mb-4">This cross-continental synergy fosters a seamless exchange of global perspectives and localized expertise, from established Western markets to high-growth Asian economies.</p>
-          <p class="text-lg text-slate-300">By linking our members across continents, we provide a truly international network and the cultural agility required to lead in the world's most competitive financial centers.</p>
-        </div>
-        <div class="grid grid-cols-2 gap-6">
-          <div class="bg-slate-800 rounded-2xl p-6 text-center">
-            <p class="text-3xl font-bold text-blue-400 mb-2">Rohan Mahesh</p>
-            <p class="text-sm text-slate-400">Vice-President</p>
+  <!-- Singapore Branch -->
+  <section class="py-24 px-6 relative overflow-hidden">
+    <div class="absolute inset-0">
+      <div
+        class="absolute top-1/2 left-0 w-[600px] h-[400px] bg-blue-600/5 rounded-full blur-[120px] pointer-events-none">
+      </div>
+    </div>
+
+    <div class="max-w-screen-xl mx-auto relative z-10">
+      <div class="glass-card rounded-[40px] p-10 md:p-16">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="reveal">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="h-px w-10 bg-blue-500"></div>
+              <span class="text-sm font-medium text-blue-400 uppercase tracking-widest">Asia-Pacific</span>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-white mb-6">ECE Singapore Branch</h2>
+            <div class="space-y-4 text-slate-400 leading-relaxed">
+              <p>We bridge our European roots with the dynamic markets of the Asia-Pacific through our Singapore branch.
+              </p>
+              <p>This cross-continental synergy fosters a seamless exchange of global perspectives and localized
+                expertise, from established Western markets to high-growth Asian economies.</p>
+              <p>By linking our members across continents, we provide a truly international network and the cultural
+                agility required to lead in the world's most competitive financial centers.</p>
+            </div>
           </div>
-          <div class="bg-slate-800 rounded-2xl p-6 text-center">
-            <p class="text-3xl font-bold text-blue-400 mb-2">Dhvani Rathi</p>
-            <p class="text-sm text-slate-400">Secretary General</p>
+
+          <div class="reveal grid grid-cols-2 gap-5">
+            <div
+              class="bg-white/[0.03] border border-white/10 rounded-3xl p-6 text-center hover:border-blue-500/20 transition-all duration-500">
+              <div
+                class="w-14 h-14 bg-blue-500/10 border border-blue-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <p class="text-lg font-bold text-white mb-1">Rohan Mahesh</p>
+              <p class="text-xs text-slate-500 uppercase tracking-wider">Vice-President</p>
+            </div>
+            <div
+              class="bg-white/[0.03] border border-white/10 rounded-3xl p-6 text-center hover:border-blue-500/20 transition-all duration-500">
+              <div
+                class="w-14 h-14 bg-blue-500/10 border border-blue-500/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <p class="text-lg font-bold text-white mb-1">Dhvani Rathi</p>
+              <p class="text-xs text-slate-500 uppercase tracking-wider">Secretary General</p>
+            </div>
           </div>
         </div>
       </div>
@@ -269,20 +539,84 @@
   </section>
 
   <!-- Footer -->
-  <footer class="bg-slate-900 text-white py-12 px-6 border-t border-slate-800">
-    <div class="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between items-center">
-      <div class="flex items-center gap-4 mb-6 md:mb-0">
-        <img src="https://i.ibb.co/FL0kfkRV/Screenshot-2026-02-22-at-19-32-45-removebg-preview-1.png" alt="ECE Logo" class="h-10 w-auto">
-        <span class="text-lg font-bold">ESSEC Club of Economics</span>
+  <footer class="px-6 pt-12 pb-12 bg-slate-950">
+    <div
+      class="overflow-hidden text-white bg-slate-900/80 max-w-[1600px] rounded-[40px] mx-auto p-12 relative border border-white/5">
+      <div
+        class="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none">
       </div>
-      <div class="flex gap-6">
-        <a href="generated-page.html" class="text-slate-400 hover:text-white transition-colors">Home</a>
-        <a href="who-we-are.html" class="text-slate-400 hover:text-white transition-colors">About</a>
-        <a href="events.html" class="text-slate-400 hover:text-white transition-colors">Events</a>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-20 z-10 relative items-start">
+        <div class="flex flex-col items-start">
+          <img src="https://i.ibb.co/FL0kfkRV/Screenshot-2026-02-22-at-19-32-45-removebg-preview-1.png" alt="ECE Logo"
+            class="w-auto h-16 object-contain mb-6 invert brightness-0">
+        </div>
+
+        <div class="flex flex-col">
+          <p class="text-sm font-light text-slate-300 max-w-md leading-relaxed">ESSEC Club of Economics
+            Headquarters,<br>10 Avenue Bernard Hirsch — 95000, Cergy, France</p>
+          <div class="grid grid-cols-[auto_1fr] gap-x-8 gap-y-3 text-sm text-slate-300 mt-4 mb-8">
+            <span class="font-medium text-white">Email:</span>
+            <span class="font-light">essecclubofeconomics@gmail.com</span>
+          </div>
+          <div class="flex gap-4">
+            <a href="#"
+              class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect width="4" height="12" x="2" y="9" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+            <a href="#"
+              class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-start lg:pl-10">
+          <h3 class="text-xl font-medium text-white tracking-tight mb-4">Let's Talk</h3>
+          <p class="text-xs font-light text-slate-400 max-w-sm mb-8 leading-relaxed">Contact us for more information
+            about our activities, membership, and partnership opportunities.</p>
+          <a href="events.html#contact"
+            class="bg-white text-slate-900 rounded-full px-6 py-3 text-sm font-semibold flex items-center gap-2.5 hover:bg-slate-100 transition-colors shadow-lg active:scale-95 duration-200">
+            <span>Contact Us</span>
+          </a>
+        </div>
       </div>
-      <p class="text-slate-500 text-sm mt-6 md:mt-0">© 2026 ESSEC Club of Economics</p>
+
+      <div
+        class="flex flex-col md:flex-row z-10 text-xs font-medium text-slate-400 border-white/10 border-t mt-12 pt-8 relative items-center justify-between">
+        <p class="text-white">© 2026 ESSEC Club of Economics</p>
+        <div class="flex gap-6 mt-4 md:mt-0">
+          <a href="index.html" class="text-slate-400 hover:text-white transition-colors">Home</a>
+          <a href="who-we-are.html" class="text-slate-400 hover:text-white transition-colors">About</a>
+          <a href="events.html" class="text-slate-400 hover:text-white transition-colors">Events</a>
+        </div>
+      </div>
     </div>
   </footer>
 
+  <!-- Scroll Reveal Script -->
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
 </body>
+
 </html>
