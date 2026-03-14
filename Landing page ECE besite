@@ -1,0 +1,1284 @@
+<html lang="en" class="scroll-smooth"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investor Relations - TDB Mongolia</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+--font-sans: 'Inter', system-ui, sans-serif;
+--font-serif: 'Instrument Serif', serif;
+}
+body {
+font-family: var(--font-sans);
+font-feature-settings: "cv11", "ss01";
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+/* Custom Utilities */
+.hide-scrollbar::-webkit-scrollbar {
+display: none;
+}
+.hide-scrollbar {
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+.glass-panel {
+background: rgba(255, 255, 255, 0.03);
+backdrop-filter: blur(16px);
+-webkit-backdrop-filter: blur(16px);
+border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.text-balance {
+text-wrap: balance;
+}
+/* Marquee Animation */
+@keyframes marquee {
+0% { transform: translateX(0); }
+100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+animation: marquee 40s linear infinite;
+}
+/* 3D Carousel Utilities */
+.perspective-1000 { perspective: 1000px; }
+.transform-style-3d { transform-style: preserve-3d; }
+</style>
+<script src="https://www.aura.build/FxFilter.js"></script>
+  
+<link id="all-fonts-link-font-geist" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist">.font-geist { font-family: 'Geist', sans-serif !important; }</style><link id="all-fonts-link-font-roboto" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-roboto">.font-roboto { font-family: 'Roboto', sans-serif !important; }</style><link id="all-fonts-link-font-montserrat" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-montserrat">.font-montserrat { font-family: 'Montserrat', sans-serif !important; }</style><link id="all-fonts-link-font-poppins" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-poppins">.font-poppins { font-family: 'Poppins', sans-serif !important; }</style><link id="all-fonts-link-font-playfair" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"><style id="all-fonts-style-font-playfair">.font-playfair { font-family: 'Playfair Display', serif !important; }</style><link id="all-fonts-link-font-instrument-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-instrument-serif">.font-instrument-serif { font-family: 'Instrument Serif', serif !important; }</style><link id="all-fonts-link-font-merriweather" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"><style id="all-fonts-style-font-merriweather">.font-merriweather { font-family: 'Merriweather', serif !important; }</style><link id="all-fonts-link-font-bricolage" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-bricolage">.font-bricolage { font-family: 'Bricolage Grotesque', sans-serif !important; }</style><link id="all-fonts-link-font-jakarta" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-jakarta">.font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif !important; }</style><link id="all-fonts-link-font-manrope" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-manrope">.font-manrope { font-family: 'Manrope', sans-serif !important; }</style><link id="all-fonts-link-font-space-grotesk" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-space-grotesk">.font-space-grotesk { font-family: 'Space Grotesk', sans-serif !important; }</style><link id="all-fonts-link-font-work-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-work-sans">.font-work-sans { font-family: 'Work Sans', sans-serif !important; }</style><link id="all-fonts-link-font-pt-serif" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-pt-serif">.font-pt-serif { font-family: 'PT Serif', serif !important; }</style><link id="all-fonts-link-font-geist-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-geist-mono">.font-geist-mono { font-family: 'Geist Mono', monospace !important; }</style><link id="all-fonts-link-font-space-mono" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"><style id="all-fonts-style-font-space-mono">.font-space-mono { font-family: 'Space Mono', monospace !important; }</style><link id="all-fonts-link-font-quicksand" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-quicksand">.font-quicksand { font-family: 'Quicksand', sans-serif !important; }</style><link id="all-fonts-link-font-nunito" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"><style id="all-fonts-style-font-nunito">.font-nunito { font-family: 'Nunito', sans-serif !important; }</style><link id="all-fonts-link-font-newsreader" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..800&amp;display=swap"><style id="all-fonts-style-font-newsreader">.font-newsreader { font-family: 'Newsreader', serif !important; }</style><link id="all-fonts-link-font-google-sans-flex" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-google-sans-flex">.font-google-sans-flex { font-family: 'Google Sans Flex', sans-serif !important; }</style><link id="all-fonts-link-font-oswald" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-oswald">.font-oswald { font-family: 'Oswald', sans-serif !important; }</style><link id="all-fonts-link-font-dm-sans" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-dm-sans">.font-dm-sans { font-family: 'DM Sans', sans-serif !important; }</style><link id="all-fonts-link-font-cormorant" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&amp;display=swap"><style id="all-fonts-style-font-cormorant">.font-cormorant { font-family: 'Cormorant Garamond', serif !important; }</style></head>
+<body class="selection:bg-blue-100 selection:text-blue-900 overflow-x-hidden text-slate-900 bg-slate-950">
+
+    <!-- Navigation -->
+    <nav class="z-50 pointer-events-none w-full absolute top-0 left-0" id="global-nav">
+    <!-- 1. The Logo (Left): Absolute (Scrolls with page) -->
+    <a href="#" class="pointer-events-auto z-10 hover:opacity-80 transition-opacity absolute top-8 left-8">
+    </a>
+    <div class="z-10 absolute top-8 left-8"><a href="#" class="pointer-events-auto z-10 hover:opacity-80 transition-opacity absolute top-8 left-8">
+          </a>
+            <img src="https://i.ibb.co/FL0kfkRV/Screenshot-2026-02-22-at-19-32-45-removebg-preview-1.png" alt="ECE Logo" class="w-auto h-16 object-contain mb-6 invert brightness-0">
+            </div>
+          
+    
+
+
+    <!-- 2. The Navigation Menu (Right): Fixed (Sticks to screen) -->
+    <div class="fixed pointer-events-auto z-50 transition-transform duration-500 ease-in-out top-6 right-6 gap-x-6 gap-y-6" style="transform: translateY(0px)" id="smart-nav-root">
+        <div class="flex gap-3 relative gap-x-6 gap-y-6 items-center">
+            <!-- Component A: Navigation Pill - Desktop View -->
+            <div class="js-nav-item hidden md:flex gap-6 transition-all duration-300 hover:bg-black/50 hover:border-white/20 bg-black/20 h-12 border rounded-full pr-6 pl-6 backdrop-blur-sm gap-x-6 gap-y-6 items-center">
+                <div class="flex gap-6 gap-x-6 gap-y-6 items-center">
+                    <a href="#" class="hover:text-blue-400 transition-colors text-base font-medium text-white/90 font-google-sans-flex">Home</a>
+                    <a href="#" class="hover:text-blue-400 transition-colors text-base font-medium text-white/90 font-google-sans-flex">Who
+                        We
+                        Are</a>
+                    <a href="#" class="hover:text-blue-400 transition-colors text-base font-medium text-white/90 font-google-sans-flex">Financials</a>
+                </div>
+                <div class="w-px h-4 bg-white/20"></div>
+                <button class="hover:text-blue-400 transition-colors text-base font-medium text-white font-google-sans-flex gap-x-6 gap-y-6">EN</button>
+            </div>
+
+            <!-- Component B: Menu Trigger -->
+            <button class="z-50 js-nav-item flex hover:bg-black/50 hover:border-white/20 transition-all duration-300 active:scale-95 text-white bg-black/20 w-12 h-12 border rounded-full relative backdrop-blur-sm items-center justify-center" id="nav-trigger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-icon-replaced="true" id="nav-icon" style="color: rgb(255, 255, 255); width: 24px; height: 24px"><line x1="4" x2="20" y1="12" y2="12" class=""></line><line x1="4" x2="20" y1="6" y2="6" class=""></line><line x1="4" x2="20" y1="18" y2="18" class=""></line></svg>
+        </button>
+
+            <!-- Component C: Redesigned Dropdown Menu (Fixed) -->
+            <div class="flex flex-col transform transition-all duration-300 origin-top-right bg-[#050510]/80 opacity-0 w-[470px] max-w-lg border-white/10 border rounded-[32px] mt-4 pt-4 pr-4 pb-4 pl-4 absolute top-full right-0 shadow-2xl backdrop-blur-2xl translate-y-2 scale-95" id="nav-dropdown-card">
+
+                <!-- Content List -->
+                <div class="flex flex-col">
+                    <!-- Mobile Only: Who We Are -->
+                    <a href="#" class="md:hidden group flex items-center justify-between hover:bg-white/5 transition-colors border-b border-white/5 py-3 px-5 rounded-xl">
+                        <span class="group-hover:text-blue-400 transition-colors text-xl font-medium text-white/90 font-google-sans-flex">Who We Are</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="-translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 opacity-0 w-[22px] h-[22px] text-blue-400" data-icon-replaced="true">
+                            <path d="M5 12h14" class=""></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+
+                    <!-- Mobile Only: Financials -->
+                    <a href="#" class="md:hidden group flex items-center justify-between hover:bg-white/5 transition-colors border-b border-white/5 py-3 px-5 rounded-xl">
+                        <span class="group-hover:text-blue-400 transition-colors text-xl font-medium text-white/90 font-google-sans-flex">Financials</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="-translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 opacity-0 w-[22px] h-[22px] text-blue-400" data-icon-replaced="true">
+                            <path d="M5 12h14" class=""></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+
+                    <!-- Link 3: Sustainability -->
+                    <a href="#" class="group flex items-center justify-between hover:bg-white/5 transition-colors border-b border-white/5 py-3 px-5 rounded-xl">
+                        <span class="group-hover:text-blue-400 transition-colors text-xl font-medium text-white/90 font-google-sans-flex">Sustainability</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="-translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 opacity-0 w-[22px] h-[22px] text-blue-400" data-icon-replaced="true">
+                            <path d="M5 12h14" class=""></path>
+                            <path d="m12 5 7 7-7 7" class=""></path>
+                        </svg>
+                    </a>
+
+                    <!-- Link 4: Newsroom -->
+                    <a href="#" class="group flex items-center justify-between hover:bg-white/5 transition-colors rounded-xl pt-3 pr-5 pb-3 pl-5">
+                        <span class="group-hover:text-blue-400 transition-colors text-xl font-medium text-white/90 font-google-sans-flex">Newsroom</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="-translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 opacity-0 w-[22px] h-[22px] text-blue-400" data-icon-replaced="true">
+                            <path d="M5 12h14" class=""></path>
+                            <path d="m12 5 7 7-7 7" class=""></path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Footer Action Area -->
+                <div class="flex flex-row gap-3 w-full border-white/10 border-t mt-2 pt-4 gap-x-3 gap-y-3 items-center">
+                    <!-- Left Action: Contact Us -->
+                    <button class="flex-[2] flex hover:bg-slate-200 transition-colors group active:scale-95 font-semibold text-black bg-white h-12 rounded-full shadow-lg gap-x-3 gap-y-3 items-center justify-center">
+        <span class="font-google-sans-flex">Contact Us</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="group-hover:translate-x-0.5 transition-transform"><line x1="22" x2="11" y1="2" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </button><a href="https://www.tdbm.mn" target="_blank" class="flex-[1] flex items-center justify-center hover:bg-white/10 transition-colors gap-2 text-sm font-medium text-white h-12 border-white/20 border rounded-full">
+                        <span class="font-google-sans-flex">TDBM.MN</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="opacity-70">
+                            <path d="M7 17L17 7" class=""></path>
+                            <path d="M7 7h10v10" class=""></path>
+                        </svg>
+                    </a>
+
+                    <!-- Right Action: Contact Us -->
+
+                </div>
+            </div>
+
+            <!-- Component D: Interaction Script -->
+            <script class="">
+                (function() {
+                const triggerBtn = document.getElementById('nav-trigger-btn');
+                const dropdown = document.getElementById('nav-dropdown-card');
+                const icon = document.getElementById('nav-icon');
+                let isOpen = false;
+
+                function toggleMenu(event) {
+                    if(event) event.stopPropagation();
+                    isOpen = !isOpen;
+
+                    if (isOpen) {
+                        // Show Menu
+                        dropdown.classList.remove('opacity-0', 'invisible', 'scale-95', 'translate-y-2');
+                        dropdown.classList.add('opacity-100', 'visible', 'scale-100', 'translate-y-0');
+                        
+                        // Active Button State
+                        triggerBtn.classList.add('bg-white', 'text-black', 'border-white');
+                        triggerBtn.classList.remove('text-white', 'border-white/10', 'bg-black/20');
+                        
+                        // Icon Switch to Close
+                        if(icon) {
+                            icon.innerHTML = '<line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line>';
+                        }
+                    } else {
+                        // Hide Menu
+                        dropdown.classList.add('opacity-0', 'invisible', 'scale-95', 'translate-y-2');
+                        dropdown.classList.remove('opacity-100', 'visible', 'scale-100', 'translate-y-0');
+                        
+                        // Inactive Button State
+                        triggerBtn.classList.remove('bg-white', 'text-black', 'border-white');
+                        triggerBtn.classList.add('text-white', 'border-white/10', 'bg-black/20');
+                        
+                        // Icon Switch to Hamburger
+                        if(icon) {
+                            icon.innerHTML = '<line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>';
+                        }
+                    }
+                }
+
+                // Click Event
+                if(triggerBtn) triggerBtn.addEventListener('click', toggleMenu);
+
+                // Close on outside click
+                document.addEventListener('click', function(event) {
+                    if (isOpen && dropdown && triggerBtn && !dropdown.contains(event.target) && !triggerBtn.contains(event.target)) {
+                        toggleMenu();
+                    }
+                });
+            })();
+            </script>
+        </div>
+
+        <script class="">
+            (function() {
+            const navRoot = document.getElementById('smart-nav-root');
+            const navItems = navRoot.querySelectorAll('.js-nav-item');
+            let isHovering = false;
+            
+            // Function to toggle between Glass and Transparent modes
+            const setAppearance = (isTransparent) => {
+                navItems.forEach(el => {
+                    if (isTransparent) {
+                        // Remove Glass Styles
+                        el.classList.remove('bg-black/40', 'border-white/10', 'shadow-2xl', 'backdrop-blur-xl');
+                        // Add Transparent Styles
+                        el.classList.add('bg-transparent', 'border-transparent', 'shadow-none', 'backdrop-blur-none');
+                    } else {
+                        // Restore Glass Styles
+                        el.classList.add('bg-black/40', 'border-white/10', 'shadow-2xl', 'backdrop-blur-xl');
+                        el.classList.remove('bg-transparent', 'border-transparent', 'shadow-none', 'backdrop-blur-none');
+                    }
+                });
+            };
+
+            const handleScroll = () => {
+                const currentScrollY = window.scrollY;
+                
+                // Sticky Behavior: Always ensure translateY is 0 to keep it visible/fixed
+                navRoot.style.transform = 'translateY(0)';
+
+                // Transparency Logic
+                if (currentScrollY < 10 && !isHovering) {
+                    setAppearance(true); // Transparent at top
+                } else {
+                    setAppearance(false); // Glass otherwise
+                }
+            };
+
+            // Event Listeners
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            
+            // Hover Interactions
+            navRoot.addEventListener('mouseenter', () => {
+                isHovering = true;
+                setAppearance(false); // Instantly show glass on hover
+            });
+            
+            navRoot.addEventListener('mouseleave', () => {
+                isHovering = false;
+                if (window.scrollY < 10) {
+                    setAppearance(true); // Revert to transparent if at top
+                }
+            });
+
+            // Initial State Check
+            handleScroll();
+        })();
+        </script>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <header class="bg-slate-50 w-full h-[300vh] relative" id="hero-scroll-track">
+
+    <div class="sticky flex flex-col overflow-hidden z-20 bg-slate-50 w-full h-screen top-0 items-center justify-start"><video src="https://res.cloudinary.com/doruzffij/video/upload/v1771777244/Growing_Stock_Market_Index_Graph_2_dmc2iv.mp4" autoplay="" loop="" muted="" playsinline="" class="w-full h-full object-cover absolute top-0 right-0 left-0 blur-sm" data-container-bg="true"></video>
+
+        <div class="z-10 flex flex-col transition-opacity duration-300 text-center w-full pr-6 pl-6 absolute top-[10%] items-center" id="final-header" style="opacity: 1;">
+            <h2 class="cursor-text md:bg-clip-text md:text-transparent md:text-5xl text-4xl font-medium tracking-tight font-google-sans-flex bg-gradient-to-b from-blue-400 to-blue-600 mb-4">Welcome to</h2>
+            <p class="cursor-text md:text-8xl md:bg-clip-text md:text-transparent text-lg font-extrabold tracking-wider font-google-sans-flex text-center bg-gradient-to-b from-white/95 via-white to-white/0 max-w-full mr-auto ml-auto">ESSEC Club Of Economics</p>
+        </div>
+
+        <div id="morphing-card" class="relative bg-slate-900 overflow-hidden shadow-2xl z-20" style="width: 1436.4px; height: 600px; border-radius: 40px; margin-top: 350px;">
+
+            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&amp;w=2070&amp;auto=format&amp;fit=crop" alt="Architecture" class="w-full h-full object-cover bluescale opacity-40">
+            <div class="absolute inset-0 transition-opacity duration-500" id="card-overlay"></div>
+
+            <div class="flex flex-col md:pb-[120px] border-slate-50 pb-[80px] absolute top-0 right-0 bottom-0 left-0 backdrop-blur-sm justify-end" style="opacity: 0;" id="hero-initial-content">
+
+                <div class="md:px-12 lg:px-20 w-full max-w-[1600px] mr-auto ml-auto pr-6 pl-6">
+
+                   <div class="z-10 text-center max-w-full pr-6 pl-6 relative">
+            <p class="md:text-sm uppercase reveal-text text-xs font-medium text-blue-300 tracking-[0.2em] mb-6" style="animation-delay: 0.1s">Economics for the Driven</p>
+            <h1 class="md:text-8xl lg:text-9xl uppercase leading-none reveal-text text-5xl font-semibold text-sky-50 tracking-tighter mb-8" style="animation-delay: 0.3s">SHAPING<br class=""><span class="bg-clip-text text-transparent bg-gradient-to-b from-blue-400 to-blue-600">excellence</span></h1>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 mt-12 reveal-text" style="animation-delay: 0.5s;">
+                
+            </div>
+        </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script class="">
+        (function() {
+            const track = document.getElementById('hero-scroll-track');
+            const card = document.getElementById('morphing-card');
+            const initialContent = document.getElementById('hero-initial-content');
+            const finalHeader = document.getElementById('final-header');
+            const overlay = document.getElementById('card-overlay');
+
+            function getConfig() {
+                const width = window.innerWidth;
+                const isMobile = width < 768;
+                return {
+                    finalWidth: isMobile ? width * 0.92 : Math.min(width * 0.95, 1600),
+                    finalHeight: isMobile ? 400 : 600,
+                    finalRadius: isMobile ? 24 : 40,
+                    finalTopMargin: isMobile ? 180 : 350
+                };
+            }
+            
+            function handleScroll() {
+                if (!track || !card) return;
+                const config = getConfig();
+                const rect = track.getBoundingClientRect();
+                const endScroll = track.offsetHeight - window.innerHeight;
+                let scrolled = -rect.top; 
+                
+                // Adjusted progress calculation to finish animation at 60% of scroll
+                // leaving 40% for the "Pause/Hold" phase
+                let progress = Math.max(0, Math.min(scrolled / (endScroll * 0.6), 1));
+                
+                const windowWidth = window.innerWidth;
+                const currentWidth = windowWidth - (progress * (windowWidth - config.finalWidth));
+                const windowHeight = window.innerHeight;
+                const currentHeight = windowHeight - (progress * (windowHeight - config.finalHeight));
+                const currentMargin = progress * config.finalTopMargin;
+                const currentRadius = progress * config.finalRadius;
+
+                card.style.width = `${currentWidth}px`;
+                card.style.height = `${currentHeight}px`;
+                card.style.borderRadius = `${currentRadius}px`;
+                card.style.marginTop = `${currentMargin}px`;
+                
+                if (initialContent) {
+                    initialContent.style.opacity = Math.max(0, 1 - (progress * 3));
+                }
+                
+                let headerOpacity = 0;
+                if (progress > 0.5) {
+                    headerOpacity = (progress - 0.5) * 2;
+                }
+                if (finalHeader) {
+                    finalHeader.style.opacity = Math.min(headerOpacity, 1);
+                }
+
+                if (overlay) {
+                    if (progress > 0.8) {
+                        overlay.classList.remove('bg-slate-900/30');
+                        overlay.classList.add('bg-slate-900/10');
+                    } else {
+                        overlay.classList.add('bg-slate-900/30');
+                        overlay.classList.remove('bg-slate-900/10');
+                    }
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            window.addEventListener('resize', handleScroll, { passive: true });
+            handleScroll();
+        })();
+    </script>
+</header>
+
+    <!-- Key Metrics / About Grid -->
+    <section class="overflow-hidden -mt-[40px] md:pb-0 md:rounded-t-[80px] md:-mt-[80px] md:pt-[100px] z-30 bg-slate-950 rounded-t-[40px] pt-[60px] pb-6 relative">
+
+  <div class="h-full max-w-screen-2xl mr-auto ml-auto gap-x-6 gap-y-6">
+
+    <!-- Row 1: Header Assembly -->
+
+    
+
+
+
+    <!-- Row 2: Asymmetrical Grid (65% / 35%) -->
+
+    
+
+  </div>
+
+</section><section class="min-h-screen md:px-12 lg:px-20 lg:pt-0 bg-slate-950 w-full h-auto pt-0 pr-4 pb-16 pl-4 relative">
+
+  <!-- Inner Floating Frame (Relative) -->
+  <div class="relative min-h-[80vh] overflow-hidden group isolate flex flex-col bg-zinc-900 w-full max-w-screen-2xl rounded-[40px] mr-auto ml-auto shadow-2xl justify-center">
+
+    <!-- Background Image with Parallax Effect -->
+    <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/3f9873a2-2aa5-4b4a-b35f-363da3ba6396_3840w.jpg" alt="Mining Operations Background" class="transition-transform duration-1000 group-hover:scale-105 z-[-1] w-full h-full object-cover absolute top-0 right-0 bottom-0 left-0">
+
+    <!-- Gradient Overlay for Readability -->
+    <div class="z-[-1] bg-[radial-gradient(circle_at_left,var(--tw-gradient-stops))] from-zinc-950/70 via-zinc-950/10 to-zinc-950/30 absolute top-0 right-0 bottom-0 left-0">
+    </div>
+
+    <!-- Content Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 flex-grow h-full backdrop-blur-none">
+      <div class="absolute top-0 right-0 bottom-0 left-0" data-container-bg="true">
+        <div class="text-slate-50 absolute top-0 right-0 bottom-0 left-0" data-container-bg="true"><video src="https://i.ibb.co/fVsXjDnc/IMG-7610-1.jpg" poster="https://i.ibb.co/fVsXjDnc/IMG-7610-1.jpg" autoplay="" loop="" muted="" playsinline="" class="w-full h-full object-cover absolute top-0 right-0 bottom-0 left-0" data-container-bg="true"></video></div>
+        <div class="spline-container absolute top-0 left-0 w-full h-full -z-10"><iframe src="https://my.spline.design/orbit-XDLATgFZPQX6SO6dgJGqPwHD/" frameborder="0" width="100%" height="100%"></iframe></div>
+      </div>
+
+      <!-- Left Column: Text Area -->
+      <div class="flex flex-col md:p-16 lg:p-20 order-1 h-full pt-10 pr-10 pb-10 pl-10 justify-center">
+        <!-- Decorative Label -->
+        <div class="flex gap-3 animate-fade-in-up mb-8 gap-x-3 gap-y-3 items-center">
+          <div class="h-px bg-slate-50 w-10"></div>
+          <span class="uppercase text-xs font-medium text-slate-50 tracking-widest backdrop-blur-none">ESSEC Club of Economics</span>
+        </div>
+
+        <!-- Headline -->
+        <h2 class="leading-[1.1] animate-fade-in-up md:text-5xl lg:text-4xl text-4xl font-medium text-white tracking-tight font-google-sans-flex mb-8" style="animation-delay: 100ms">Our Approach</h2>
+
+        <!-- Subtext (Target for Scroll Reveal) -->
+        <div class="reveal-subtext leading-relaxed -translate-y-5 transition-transform duration-75 ease-out will-change-transform overflow-hidden md:text-base text-lg font-thin text-slate-100 font-google-sans-flex text-left opacity-95 h-100 max-w-2xl max-h-[350px] py-30 relative bottom-40">
+
+          <!-- Inner Scrollable Container with Mask -->
+          <div class="overflow-y-auto hide-scrollbar -translate-x-3 -translate-y-12 w-full h-full px-3">
+  <p class="text-4xl font-medium text-white-900 font-google-sans-flex text-center pt-12 pb-10">At ESSEC Club
+  of
+  Economics,
+  we aim to prepare star students for future key roles in various industries.</p>
+  <p class="text-xl text-white-900 font-google-sans-flex text-center mb-6">Our monthly stock pitches allow our
+    members
+    to
+    enhance their financial and market analysis skills. We aim to create an environment allowing for our
+    members to
+    challenge, guide, and support one another because we believe in the power of collective growth.</p>
+  <p class="text-xl text-white-900 font-google-sans-flex text-center mb-6">Our events, courses, partners, and
+    mentorship
+    programs help students become impactful future professionals in the industries they are passionate about.
+  </p>
+
+
+
+
+
+  <!-- Signature Block -->
+
+</div>
+
+          <!-- Floating Scroll Indicator (Visible over mask) -->
+          <div class="pointer-events-none flex flex-col z-10 w-full h-40 absolute bottom-0 left-0 items-center justify-end">
+
+          </div>
+        </div>
+        <div class="flex flex-row gap-6 mt-[50px] mb-[50px] gap-x-6 gap-y-6 items-center">
+
+          <div class="">
+            <span class="text-[18px] block font-bold text-white">Orkhon Onon</span>
+            <span class="text-[12px] uppercase block font-medium text-slate-50 tracking-[1px] font-google-sans-flex mt-1">Chief Executive Officer, Trade and Development Bank</span>
+          </div>
+        </div>
+
+        <!-- Stats / Key Points -->
+        <!-- CTA -->
+      </div>
+
+      <!-- Right Column: Visuals / Gallery -->
+
+
+
+    </div>
+  </div>
+
+  <!-- Scroll Interaction Script -->
+  <script class="">
+    (function() {
+            // Updated selector to match the current section ID
+            const section = document.querySelector('[data-element-id="aura-emkp4f3yd77ys8o1w"]');
+            const targetText = section ? section.querySelector('.reveal-subtext') : null;
+            
+            if (!section || !targetText) return;
+
+            function handleScroll() {
+                const rect = section.getBoundingClientRect();
+                const viewportHeight = window.innerHeight;
+                
+                // Sticky top offset is 10vh
+                const stickyStart = viewportHeight * 0.1; 
+                
+                // Calculate how far we've scrolled past the "stick" point
+                // When rect.top is at stickyStart, scrolling begins. 
+                // We want the animation to complete over, say, 50vh of scrolling.
+                const scrollDistance = stickyStart - rect.top;
+                const animationRange = viewportHeight * 0.5; // Animate over 50% of viewport height
+                
+                // Calculate progress between 0 and 1
+                const progress = Math.max(0, Math.min(1, scrollDistance / animationRange));
+                
+                // Interpolate values
+                // Opacity: 0.3 -> 1
+                // TranslateY: -20px -> 0px
+                const opacity = 0.3 + (0.7 * progress);
+                const translateY = -20 * (1 - progress); // Starts at -20, ends at 0
+                
+                targetText.style.opacity = opacity;
+                targetText.style.transform = `translateY(${translateY}px)`;
+            }
+
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            // Initial call to set state
+            handleScroll();
+        })();
+  </script>
+
+  <div class="wp-block-columns aibc-section has-indigo-900-background-color has-background is-layout-flex wp-container-core-columns-is-layout-62db62f3 wp-block-columns-is-layout-flex" style="padding-top:0;padding-bottom:0">
+    <div class="wp-block-column has-indigo-900-background-color has-background is-layout-flow wp-block-column-is-layout-flow">
+      <div class="stats-row bg-brand-950">
+        <div class="max-w-7xl mr-auto ml-auto pr-6 pl-6 translate-y-16">
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center md:text-left">
+            <div class="">
+              <p class="stat-number text-[48px] md:text-[56px] leading-tight font-semibold text-amber-500 text-center" data-number="1" data-suffix="">0</p>
+              <h3 class="text-xl font-semibold text-white text-center mt-2">
+                Rank in France </h3>
+            </div>
+            <div class="">
+              <p class="stat-number text-[48px] leading-tight md:text-[56px] font-semibold text-amber-500 text-center translate-x-2" data-number="100" data-suffix="+">0+</p>
+              <h3 class="text-xl font-semibold text-white text-center mt-2">
+                Members </h3>
+            </div>
+            <div class="">
+              <p class="stat-number text-[48px] leading-tight md:text-[56px] font-semibold text-amber-500 text-center" data-number="50" data-suffix="+">0+</p>
+              <h3 class="text-xl font-semibold text-white text-center mt-2">
+                Reports Published </h3>
+            </div>
+          </div>
+
+          <div class="flex justify-center mt-10">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+    const stats = document.querySelectorAll('.stat-number');
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const el = entry.target;
+          const targetStr = el.getAttribute('data-number');
+          const target = parseInt(targetStr, 10);
+          const suffix = el.getAttribute('data-suffix') || '';
+          
+          if (!isNaN(target)) {
+              let startTimestamp = null;
+              const duration = 2000;
+              const step = (timestamp) => {
+                  if (!startTimestamp) startTimestamp = timestamp;
+                  const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                  const ease = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+                  el.innerText = Math.floor(ease * target) + suffix;
+                  if (progress < 1) {
+                      window.requestAnimationFrame(step);
+                  } else {
+                      el.innerText = target + suffix;
+                  }
+              };
+              window.requestAnimationFrame(step);
+          }
+          observer.unobserve(el);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    stats.forEach(stat => {
+        const suffix = stat.getAttribute('data-suffix') || '';
+        stat.innerText = '0' + suffix;
+        observer.observe(stat);
+    });
+  })();
+  </script>
+
+</section><section class="bg-slate-950 w-full mt-[50px] pb-[150px] relative">
+  <section class="z-10 sm:py-24 fade-in fade-in-delay-4 pt-8 pb-8 relative">
+  <div class="sm:px-6 lg:px-8 max-w-7xl mr-auto ml-auto pr-4 pl-4">
+    <div class="text-center mb-12">
+      <p class="uppercase text-xs font-medium text-white tracking-wide">Trusted by teams at</p>
+    </div>
+
+    <div class="overflow-hidden relative" style="mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);">
+      <div class="z-10 pointer-events-none bg-gradient-to-r from-black via-black/80 to-transparent w-20 absolute top-0 bottom-0 left-0">
+      </div>
+
+      <div class="ticker-track flex gap-16 pt-2 pb-2 gap-x-16 gap-y-16 items-center">
+        <div class="flex gap-16 shrink-0 gap-x-16 gap-y-16 items-center">
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-normal tracking-tighter">TechFlow</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-bold tracking-tighter font-bricolage">Nexus Labs</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-semibold tracking-tighter font-merriweather">DataSync</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-normal tracking-tighter font-instrument-serif">VisionCorp</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-semibold tracking-tighter font-playfair">CloudBase</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-normal tracking-tighter">InnovateTech</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-bold tracking-tighter">FlowState</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-16 shrink-0">
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            <span class="text-lg font-normal tracking-tighter">TechFlow</span>
+          </div>
+
+          <div class="flex items-center gap-3 text-zinc-100 hover:text-white transition-colors duration-300">
+            </div></div></div></div></div></section>
+</section>
+
+    <script class="">
+        let currentSectorSlide = 0;
+        const totalSectorSlides = 3;
+        function changeSectorSlide(dir) {
+            const slides = document.querySelectorAll('#sector-carousel > div');
+            slides[currentSectorSlide].classList.remove('opacity-100', 'z-10');
+            slides[currentSectorSlide].classList.add('opacity-0', 'z-0');
+            
+            currentSectorSlide = (currentSectorSlide + dir + totalSectorSlides) % totalSectorSlides;
+            
+            slides[currentSectorSlide].classList.remove('opacity-0', 'z-0');
+            slides[currentSectorSlide].classList.add('opacity-100', 'z-10');
+        }
+        setInterval(() => changeSectorSlide(1), 5000);
+    </script>
+
+    <!-- Competitive Advantage (Dark Mode Tabs) -->
+    <section class="overflow-hidden -mt-[80px] md:px-6 md:pb-24 md:pt-[80px] z-30 bg-slate-100 rounded-none pt-[80px] pr-4 pb-24 pl-4 relative shadow-sm">
+  <!-- Background Decor -->
+  
+  
+
+  <!-- Main Card Container -->
+  <div class="md:p-[60px] overflow-hidden isolate bg-white h-500 max-w-screen-2xl max-h-fit border-slate-200 border rounded-[40px] mr-auto ml-auto pt-8 pr-8 pb-8 pl-8 relative shadow-2xl"><div class="absolute top-0 right-0 bottom-0 left-0" data-container-bg="true">
+  <div data-us-project="aMg8pk6EqmkQ3cf3ifkf"></div>
+</div>
+  <!-- Content Wrapper -->
+  <div class="z-10 relative">
+
+  <!-- SECTION 1: GOVERNING BOARD -->
+  <!-- Header Content -->
+  <div class="md:mb-[40px] mb-[40px]">
+    <h2 class="md:text-[36px] leading-tight text-3xl font-medium text-slate-900 tracking-tight mb-4">
+      Representative Governing Board</h2>
+    <p class="md:text-[16px] leading-relaxed text-base font-light text-slate-600 max-w-full">Our mission is simple:
+      inspire and prepare exceptional ESSEC students for success by providing advanced financial training,
+      industry-focused insights, and exclusive professional opportunities, empowering our members to excel in
+      competitive global markets and strive to create a meaningful impact.</p>
+  </div>
+
+  <!-- Member Grid (5 Members) -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-x-6 gap-y-10">
+
+    <!-- Member 1: Artyom Mayilyan -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Artyom Mayilyan" data-role="President" data-image="https://i.ibb.co/d0Cgsv6C/IMG-2923.jpg" data-desc="Randolph Koppa has been a key leader in Mongolia’s banking sector for over two decades. Appointed as Executive Vice Chairman in 2016 and later as Chairman of the RGB in 2022, he also serves on the Risk Management Committee.&lt;br&gt;&lt;br&gt;Mr. Koppa first came to Mongolia in 2004 through a management and technical assistance program provided to TDB by ING Bank. Before joining the RGB, he held senior leadership roles as Chief Executive Officer and President of TDB, driving strategic growth and innovation.&lt;br&gt;&lt;br&gt;Beyond his contributions to TDB, Mr. Koppa served as Chairman of the Mongolian Mortgage Corporation (MIK) from 2006 to 2013. Today, he continues to champion sustainable development as Vice-Chair of the Climate Change &amp; Sustainable Finance Working Group at the Business Council of Mongolia. He is also an active Board Member of the American Chamber of Commerce in Mongolia.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/d0Cgsv6C/IMG-2923.jpg" alt="Randolph Stanley Koppa" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Artyom Mayilyan</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        President</p>
+    </div>
+
+    <!-- Member 2: Marc Escrich Belzunce -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Marc Escrich Belzunce" data-role="Vice-President" data-image="https://i.ibb.co/jPW7FSst/IMG-2918.jpg" data-desc="Erdenebileg D. is a major shareholder of TDB and a prominent figure in Mongolia’s banking and financial sector. Serving as Chairman of the Board from 2006 to 2022, and continuing as a Board Member, he has leveraged over 25 years of industry experience to strengthen TDB’s market position both domestically and internationally, helping the bank become one of Mongolia’s leading commercial institutions.&lt;br&gt;&lt;br&gt;Mr. Erdenebileg holds a Bachelor’s degree in Law from the National University of Mongolia and a Master’s degree in Finance from the University of Finance and Economics.">
+      <div class="overflow-hidden rounded-[20px] bg-slate-50 border border-slate-200 relative">
+        <img src="https://i.ibb.co/jPW7FSst/IMG-2918.jpg" alt="Erdenebileg D." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight mt-4">Marc Escrich Belzunce
+      </h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Vice-President</p>
+    </div>
+
+    <!-- Member 3: Sofia Anna Strzyżewska  -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Sofia Anna Strzyżewska " data-role="Vice-President" data-image="https://i.ibb.co/cSbqpC1f/IMG-2926.jpg" data-desc="Bolormaa J. is one of TDB’s most experienced board members, bringing exceptional expertise in corporate governance, finance, and the banking sector. She currently serves as Chairwoman of the Remuneration and Nomination Committee and is a member of the Audit Committee.&lt;br&gt;&lt;br&gt;With over 30 years of experience in finance and banking, Bolormaa has held key roles at the Mongolian Stock Exchange (MSE) and the Financial Regulatory Commission (FRC), shaping the country’s financial market development. She earned her graduate degree from Handong University in South Korea, further strengthening her international perspective.">
+      <div class="overflow-hidden rounded-[20px] bg-slate-50 border border-slate-200 relative">
+        <img src="https://i.ibb.co/cSbqpC1f/IMG-2926.jpg" alt="Bolormaa J." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 text-2xl font-google-sans-flex opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight mt-4">Sofia Anna Strzyżewska</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Vice-President</p>
+    </div>
+
+    <!-- Member 4: Vlad Holovkov -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Vlad Holovkov" data-role="Secretary General" data-image="https://i.ibb.co/PsNNYGxd/IMG-2920.jpg" data-desc="Khurelbaatar D. has been a Board Member of TDB since August 2020, bringing over 40 years of experience in the finance and banking sector. Throughout his career at TDB, he has held key management positions, including roles in the Cash and Bullion Unit, Branch Management Department, Customer Service Department, and served as Deputy CEO in charge of operations.&lt;br&gt;&lt;br&gt;Before joining TDB, Mr. Khurelbaatar worked at the Bank of Mongolia (BOM) from 1981 to 1990 as a State Inspector in the Control and Inspection Department and as an Accountant in the International Settlement Department.&lt;br&gt;&lt;br&gt;He holds a Bachelor’s degree in Accounting from the National University of Commerce and Business, Mongolia, and a degree in Economics from the Irkutsk National Institute of Economics, Russia.">
+      <div class="overflow-hidden rounded-[20px] bg-slate-50 border border-slate-200 relative">
+        <img src="https://i.ibb.co/PsNNYGxd/IMG-2920.jpg" alt="Khurelbaatar D." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight mt-4">Vlad Holovkov</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Secretary General</p>
+    </div>
+
+    <!-- Member 5: Paul Bogillot  -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Paul Bogillot " data-role="Head Treasury" data-image="https://i.ibb.co/279Yyp4W/a313a5f7-689d-40aa-83b9-d46ac529cc19.png" data-desc="Yanjmaa D. has been a Board Member of TDB since July 2019 and serves as a Financial Advisor to the Board. Her career began at the Bank of Mongolia (BOM) as a Senior Accountant in the International Settlement Department, where she was responsible for preparing financial statements, budget planning, and account monitoring.&lt;br&gt;&lt;br&gt;Throughout her tenure at TDB, Yanjmaa has held several key leadership roles, including Head of Interbank Settlement Unit, Financial Accounting and Controlling Unit, and the Financial Management and Controlling Department. With 44 years of experience in the banking sector, she possesses deep expertise in accounting, IAS, IFRS, budgeting, and financial control.&lt;br&gt;&lt;br&gt;Yanjmaa holds a Bachelor’s degree in Economics from the National University of Mongolia.">
+      <div class="overflow-hidden rounded-[20px] bg-slate-50 border border-slate-200 relative">
+        <img src="https://i.ibb.co/279Yyp4W/a313a5f7-689d-40aa-83b9-d46ac529cc19.png" alt="Yanjmaa D." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight mt-4">Paul Bogillot </h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Head Treasury</p>
+    </div>
+
+  </div>
+
+  <!-- SEPARATOR -->
+  <div class="h-px bg-slate-200 w-full mt-20 mb-16"></div>
+
+  <!-- ECE Singapore Branch -->
+  <div class="md:mb-[40px] text-left mb-[40px]">
+    <h2 class="md:text-[36px] leading-tight text-3xl font-medium text-slate-900 tracking-tight mb-4">
+      ECE Singapore Branch:</h2>
+    <p class="md:text-[16px] leading-relaxed text-base font-light text-slate-600 max-w-full">At ESSEC Club of Economics,
+      we bridge our European roots with the dynamic markets of the Asia-Pacific through our Singapore branch. This
+      cross-continental synergy fosters a seamless exchange of global perspectives and localized expertise, from
+      established Western markets to high-growth Asian economies. By linking our members across continents, we provide a
+      truly international network and the cultural agility required to lead in the world’s most competitive financial
+      centers, reinforcing our position as a global leader in student-led financial excellence.</p>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+    <!-- Member 6:  Rohan Mahesh -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Rohan Mahesh" data-role="Vice-President" data-image="https://i.ibb.co/MxwSx3B1/Screenshot-2026-02-22-at-22-15-41.png" data-desc="Enkhmend A. joined the Board of TDB in March 2023 and currently serves as First Deputy CEO in charge of Operations, a position she has held since 2020. With over 20 years of experience in the banking and financial sector, she has built a strong track record in leadership and management, previously holding roles such as Deputy CFO, Deputy Director, and CEO.&lt;br&gt;&lt;br&gt;Mrs. Enkhmend holds Bachelor’s and Master’s degrees from the University of Science and Technology, and a Bachelor’s degree in Finance and Accounting from the University of Finance and Economics.">
+      <div class="overflow-hidden rounded-[20px] bg-slate-50 border border-slate-200 relative">
+        <img src="https://i.ibb.co/MxwSx3B1/Screenshot-2026-02-22-at-22-15-41.png" alt="Enkhmend A." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Rohan Mahesh</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Vice-President </p>
+    </div>
+
+    <!-- Member 7: Dhvani Rathi  -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Dhvani Rathi " data-role="Secretary General" data-image="https://i.ibb.co/nqYTthLx/Screenshot-2026-02-22-at-22-22-53.png" data-desc="Otgonbileg D. has been a Board Member of TDB since July 2023, bringing over 26 years of experience in the financial and banking sector. Her career spans key roles across leading institutions, including Economist at Reconstruction Bank (1997–1999), Auditor at Savings Bank (1999–2001), Senior Auditor at Interbank (2001–2005), and Director of Departments and Deputy CEO at Ulaanbaatar City Bank and TDB (2005–2021). Since 2021, she has served as Deputy Director at MIK HFC LLC.&lt;br&gt;&lt;br&gt;Otgonbileg holds a Bachelor’s degree in Industrial Economics and Management and a Master’s degree in Business Management from the School of Economics at the National University of Mongolia.&lt;br&gt;&lt;br&gt;She is a recognized leader in sustainable finance and ESG risk management, having introduced Mongolia’s first Environmental and Social Risk Management System (ESRMS) at TDB in 2012, helped establish the Mongolian Sustainable Finance Association (MSFA), and led TDB’s Green Climate Fund accreditation in 2020.">
+      <div class="overflow-hidden rounded-[20px] bg-slate-50 border border-slate-200 relative">
+        <img src="https://i.ibb.co/nqYTthLx/Screenshot-2026-02-22-at-22-22-53.png" alt="Otgonbileg Demchigjav" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight mt-4">Dhvani Rathi
+      </h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Secretary General</p>
+    </div>
+
+  </div>
+
+  <!-- SEPARATOR -->
+  <div class="w-full h-px bg-slate-200 mt-20 mb-16"></div>
+
+  <!-- SECTION 2: EXECUTIVE MANAGEMENT -->
+  <!-- Header Content -->
+  <div class="md:mb-[40px] mb-[40px]">
+    <h2 class="md:text-[36px] leading-tight text-3xl font-medium text-slate-900 tracking-tight mb-4">
+      Head Sectors</h2>
+    <p class="md:text-[16px] leading-relaxed text-base font-light text-slate-600 max-w-full">
+      We foster an encouraging environment where all our members can develop the critical skills they need to enter the
+      workforce. Each sector is driven by motivated individuals, leading to high quality stock pitches and successful
+      external events. These strengths position us as the leading finance association in the country.
+    </p>
+  </div>
+
+  <!-- Management Grid (12 Members) -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+
+    <!-- Member 1: Jacques Ferrandez	 -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Jacques Ferrandez" data-role="IB&amp;A" data-image="https://i.ibb.co/GDgMZ3W/Jacques-Ferrandez.jpg" data-desc="Mr. Orkhon Onon has served as CEO of Trade &amp; Development Bank since January 2016, bringing over 26 years of banking experience. He joined TDB in 2005 and previously held senior roles including First Deputy CEO, CEO of TDB Capital LLC, CEO and Chairman of TDB Leasing LLC, and President of the Mongolian Bankers Association.&lt;br&gt;&lt;br&gt;Under his leadership, TDB has advanced sustainability initiatives, becoming accredited by the Green Climate Fund and a signatory to the Green Investment Principles for the Belt and Road Initiative. He also served as Chairman of the Board of Directors of the Mongolian Sustainable Finance Association (MSFA), driving initiatives that promote sustainable finance in Mongolia.&lt;br&gt;&lt;br&gt;He holds a bachelor’s degree in Banking Economics and Finance from the National University of Mongolia and a master’s degree in Banking and Financial Business Administration from the University of Wales, UK.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/GDgMZ3W/Jacques-Ferrandez.jpg" alt="Orkhon Onon" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="ring-inset pointer-events-none ring-black/5 ring-1 rounded-[20px] absolute top-0 right-0 bottom-0 left-0">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Jacques Ferrandez</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        IB&amp;A</p>
+    </div>
+
+    <!-- Member 2: Malena Mir García -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Malena Mir García" data-role="M&amp;A" data-image="https://i.ibb.co/zV4MGdgW/Screenshot-2026-02-22-at-23-50-08.png" data-desc="Enkhmend A. joined the Board of TDB in March 2023 and currently serves as First Deputy CEO in charge of Operations, a position she has held since 2020. With over 20 years of experience in the banking and financial sector, she has built a strong track record in leadership and management, previously holding roles such as Deputy CFO, Deputy Director, and CEO.&lt;br&gt;&lt;br&gt;Mrs. Enkhmend holds Bachelor’s and Master’s degrees from the University of Science and Technology, and a Bachelor’s degree in Finance and Accounting from the University of Finance and Economics.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/zV4MGdgW/Screenshot-2026-02-22-at-23-50-08.png" alt="Enkhmend A." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Malena Mir García</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        M&amp;A</p>
+    </div>
+
+    <!-- Member 3: Loïc Demesmay -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Loïc Demesmay" data-role="FCredit &amp; Alternatives" data-image="https://i.ibb.co/PGRyLZwN/Image-23-02-2026-at-00-05.jpg" data-desc="Mr. Banzragch has been appointed as First Deputy CEO in 2020. Working in the banking and financial sector for 23 years, Banzragch has held positions of Marketing Manager, Asset Manager, Head of Business banking department, Deputy CEO and First Deputy CEO.&lt;br&gt;&lt;br&gt;He holds a bachelor's degree in Banking and Economics from the National University of Mongolia.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/PGRyLZwN/Image-23-02-2026-at-00-05.jpg" alt="Banzragch O." class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Loïc Demesmay</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Credit &amp; Alternatives</p>
+    </div>
+
+    <!-- Member 4: Tao Martin-Nasr -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Tao Martin-Nasr" data-role="Commodities" data-image="" data-desc="Martijn de Jong was appointed as First Deputy Chief Executive Officer of TDB in January 2025, responsible for driving digital banking development. He brings over 25 years of global leadership experience in mobile telecommunications, insurance, asset management, and digital transformation.&lt;br&gt;&lt;br&gt;Mr. de Jong is an alumnus of Harvard Business School, completing the Advanced Management Program in 2018, and holds a Master’s degree in International Economics from Maastricht University, Netherlands. He has also earned executive certifications from Stanford University, Columbia University, and MIT, along with PMP and PRINCE2 credentials.&lt;br&gt;&lt;br&gt;Before joining TDB, he served as Chief Digital &amp; Data Officer for global banks and investment firms and worked as a private equity consultant and venture capital advisor.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Tao Martin-Nasr" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Tao Martin-Nasr</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Commodities</p>
+    </div>
+
+    <!-- Member 5: Klaus Chamoun Marinho de Azevedo -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Solongo Ch." data-role="DConsumables" data-image="https://i.ibb.co/7JyG8RR7/Klaus-1.jpg" data-desc="Solongo Ch. has served as Deputy CEO since 2020, overseeing financial operations and strategic management. She has been part of Mongolia’s banking and financial sector since 2004, holding senior positions including Chief Financial Officer and Deputy CEO.&lt;br&gt;&lt;br&gt;Ms. Solongo earned a Bachelor’s degree in Business Administration and Management6, she graduated from the School of Finance and Economics of Mongolia with a Bachelor’s degree in Economics and Accounting.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/7JyG8RR7/Klaus-1.jpg" alt="Klaus Chamoun Marinho de Azevedo" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Klaus Chamoun Marinho de Azevedo.</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Consumables</p>
+    </div>
+
+    <!-- Member 6: Jeanne Fevrier	-->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Jeanne Fevrier." data-role="Pharmaceuticals" data-image="" data-desc="Ganbayar Ts. has served as Deputy CEO since 2021, bringing over 21 years of experience in the banking and financial sector. Throughout his career, he has held several key positions, including Head of the Legal Department, contributing to regulatory compliance and governance.&lt;br&gt;&lt;br&gt;He graduated from the School of Economics at the National University of Mongolia with a Bachelor’s degree in Economic Statistics and later earned a Bachelor’s degree in Law from Otgontenger Law School of Mongolia.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Jeanne Fevrier" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Jeanne Fevrier</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Pharmaceuticals</p>
+    </div>
+
+    <!-- Member 7: Cédric Lambert -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Cédric Lambert" data-role="DEPUTY CHIEF EXECUTIVE OFFICER" data-image="" data-desc="Munkhnast P. has served as Deputy CEO since 2021, bringing over 20 years of experience in the banking and financial sector. Throughout his career, he has held several key positions, including Head of the Retail Banking Department, where he contributed to expanding customer services and retail operations.&lt;br&gt;&lt;br&gt;He graduated from the School of Economics at the National University of Mongolia with a Bachelor’s degree in Accounting and has also pursued further studies in Australia, enhancing his international perspective.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Cédric Lambert" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Cédric Lambert</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        TMT</p>
+    </div>
+
+    <!-- Member 8: Arda Okta -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Arda Okta" data-role="Energy &amp; Industrials" data-image="" data-desc="Gantumur L. has served as Deputy CEO since 2021, bringing over 20 years of experience in the banking and financial sector. Throughout his career, he has held several key positions, including Head of the Treasury Department, where he played a vital role in managing liquidity and financial operations.&lt;br&gt;&lt;br&gt;He graduated from the University of Finance and Economics of Mongolia with a Bachelor’s degree in Accounting and earned an MBA from Macquarie University in Australia, strengthening his expertise in international finance and management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Arda Okta" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Arda Okta</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Energy &amp; Industrials</p>
+    </div>
+
+    <!-- Member 9: Yu-Chen Huang	 -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Yu-Chen Huang" data-role="Real Estate" data-image="" data-desc="Gantsetseg G. has served as Deputy CEO since June 2020, bringing over 22 years of experience in the banking and financial sector. She began her career at Zoos Bank and Mongol Post Bank as an economist and regional manager in 2002. From 2013 to 2020, she held senior positions at Ulaanbaatar City Bank, including Branch Manager, Head of Department, and Deputy CEO.&lt;br&gt;&lt;br&gt;Ms. Gantsetseg earned a Bachelor’s degree in Business Management from Ulaanbaatar University in 2003 and later obtained both Bachelor’s and Master’s degrees in Business Management from the Academy of Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Yu-Chen Huang" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Yu-Chen Huang</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Real Estate</p>
+    </div>
+
+    <!-- Member 10: Noé Dugay -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Noé Dugay" data-role="Luxury" data-image="" data-desc="Baatar S. has served as Deputy CEO since 2020, bringing over 20 years of experience in the banking and financial sector. Since 2004, he has held key positions including Information Technology Specialist, Head of Division, Head of Department, and Deputy CEO, contributing to the bank’s technological and operational development.&lt;br&gt;&lt;br&gt;He graduated from the University of Telecommunications in Novosibirsk, Russia, with a Bachelor’s degree in Radio and Communication Engineering in 1994 and later earned a Bachelor’s degree in Software Engineering from the University of Science and Technology of Mongolia in 2001.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Noé Dugay" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Noé Dugay</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Luxury</p>
+    </div>
+
+    <!-- Member 11:Arthur Cartier. -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Arthur Cartier" data-role="Co-Head FIG (Equity Research)" data-image="hhttps://i.ibb.co/x8mL2FXx/Arthuroooo.jpg" data-desc="Sergelen N. was appointed as Deputy Chief Executive Officer on June 16, 2024. Since 2019, she has held several key leadership roles at TDB, including Head of Foreign Funding Management and Monitoring Unit and Deputy Head of International Banking and Corporate Relations Department.&lt;br&gt;&lt;br&gt;She graduated from the University of Finance and Economics of Mongolia and Oxford Brookes University, UK, earning Bachelor’s degrees in Accounting.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/x8mL2FXx/Arthuroooo.jpg" alt="Arthur Cartier" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Arthur Cartier</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Co-Head FIG (Equity Research)</p>
+    </div>
+
+    <!-- Member 12: Ruben Grossman -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Ruben Grossman" data-role="Co-Head FIG" data-image="https://i.ibb.co/3bfhFS3/4ba288f1-4341-4383-a8da-2d09218ea79c.png" data-desc="Enkhtuya D. has served as Head of the Financial Management and Control Department since July 2019, bringing 28 years of experience in the banking and financial sector. She began her career at Ard Bank as an economist and joined TDB in 1997, where she has held key positions including Economist, Head of Financial Reporting and Accounting Unit, and Deputy Head of the Financial Management and Control Department.&lt;br&gt;&lt;br&gt;Ms. Enkhtuya earned a Bachelor’s degree in Economics and Banking from the University of Finance and Economics of Mongolia and holds a Master’s degree in Business Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/3bfhFS3/4ba288f1-4341-4383-a8da-2d09218ea79c.png" alt="Ruben Grossman" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Ruben Grossman</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Co-Head FIG</p>
+    </div>
+
+    <!-- Member 13: Merlin Boris	 -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name=" Merlin Boris" data-role="Co-Head Portfolio Management" data-image="https://i.ibb.co/3bfhFS3/4ba288f1-4341-4383-a8da-2d09218ea79c.png" data-desc="Merlin Boris has served as Head of the Financial Management and Control Department since July 2019, bringing 28 years of experience in the banking and financial sector. She began her career at Ard Bank as an economist and joined TDB in 1997, where she has held key positions including Economist, Head of Financial Reporting and Accounting Unit, and Deputy Head of the Financial Management and Control Department.&lt;br&gt;&lt;br&gt;Ms. Enkhtuya earned a Bachelor’s degree in Economics and Banking from the University of Finance and Economics of Mongolia and holds a Master’s degree in Business Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="" alt="Merlin Boris" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Merlin Boris</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Co-Head Portfolio Management</p>
+    </div>
+
+    <!-- Member 14: Oscar Caudreliez		 -->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name=" Oscar Caudreliez" data-role="Co-Head Portfolio Management" data-image="https://i.ibb.co/VYSDyMvm/880A1337.jpg" data-desc="Oscar Caudreliez has served as Head of the Financial Management and Control Department since July 2019, bringing 28 years of experience in the banking and financial sector. She began her career at Ard Bank as an economist and joined TDB in 1997, where she has held key positions including Economist, Head of Financial Reporting and Accounting Unit, and Deputy Head of the Financial Management and Control Department.&lt;br&gt;&lt;br&gt;Ms. Enkhtuya earned a Bachelor’s degree in Economics and Banking from the University of Finance and Economics of Mongolia and holds a Master’s degree in Business Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/VYSDyMvm/880A1337.jpg" alt="Oscar Caudreliez" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Oscar Caudreliez</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Co-Head Portfolio Management</p>
+    </div>
+
+    <!-- Member 15: Avi	Kumar	-->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name=" Avi	Kumar" data-role="Partnerships" data-image="https://i.ibb.co/7dRfP2PG/Avi.jpg" data-desc="Oscar Caudreliez has served as Head of the Financial Management and Control Department since July 2019, bringing 28 years of experience in the banking and financial sector. She began her career at Ard Bank as an economist and joined TDB in 1997, where she has held key positions including Economist, Head of Financial Reporting and Accounting Unit, and Deputy Head of the Financial Management and Control Department.&lt;br&gt;&lt;br&gt;Ms. Enkhtuya earned a Bachelor’s degree in Economics and Banking from the University of Finance and Economics of Mongolia and holds a Master’s degree in Business Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/7dRfP2PG/Avi.jpg" alt="Avi	Kumar" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Avi Kumar</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Partnerships</p>
+    </div>
+
+    <!-- Member 15: Maja Banys		-->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Maja Banys" data-role="Publications" data-image="https://i.ibb.co/1J6VQKh8/880A1589.jpg" data-desc="Oscar Caudreliez has served as Head of the Financial Management and Control Department since July 2019, bringing 28 years of experience in the banking and financial sector. She began her career at Ard Bank as an economist and joined TDB in 1997, where she has held key positions including Economist, Head of Financial Reporting and Accounting Unit, and Deputy Head of the Financial Management and Control Department.&lt;br&gt;&lt;br&gt;Ms. Enkhtuya earned a Bachelor’s degree in Economics and Banking from the University of Finance and Economics of Mongolia and holds a Master’s degree in Business Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/1J6VQKh8/880A1589.jpg" alt="Maja Banys" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">
+        Maja Banys</h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Publications</p>
+    </div>
+
+    <!-- Member 16: Tom Couget		-->
+    <div class="group cursor-pointer" onclick="openBoardModal(this)" data-name="Tom Couget" data-role="Communications" data-image="" data-desc="Oscar Caudreliez has served as Head of the Financial Management and Control Department since July 2019, bringing 28 years of experience in the banking and financial sector. She began her career at Ard Bank as an economist and joined TDB in 1997, where she has held key positions including Economist, Head of Financial Reporting and Accounting Unit, and Deputy Head of the Financial Management and Control Department.&lt;br&gt;&lt;br&gt;Ms. Enkhtuya earned a Bachelor’s degree in Economics and Banking from the University of Finance and Economics of Mongolia and holds a Master’s degree in Business Management.">
+      <div class="overflow-hidden bg-slate-50 border-slate-200 border rounded-[20px] relative">
+        <img src="https://i.ibb.co/bg624G54/IMG-2930.jpg" alt="Tom Couget	" class="aspect-[3/4] transition-transform duration-700 group-hover:scale-105 group-hover:opacity-100 filter grayscale-[10%] group-hover:grayscale-0 opacity-100 w-full object-cover">
+        <div class="absolute inset-0 ring-1 ring-inset ring-black/5 rounded-[20px] pointer-events-none">
+        </div>
+      </div>
+      <h3 class="text-[18px] text-2xl font-medium text-slate-900 tracking-tight font-google-sans-flex mt-4">Tom Couget
+      </h3>
+      <p class="uppercase text-xs font-normal text-slate-500 tracking-widest font-google-sans-flex mt-1">
+        Communications</p>
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+  <!-- Modal Overlay -->
+  <div id="board-modal-overlay" class="fixed inset-0 z-[9999] bg-slate-900/60 hidden flex items-center justify-center opacity-0 transition-opacity duration-500 ease-out backdrop-blur-sm w-full h-full" onclick="closeBoardModal(event)">
+    <!-- Modal Content Card - Light Theme -->
+    <div class="md:w-[85vw] flex flex-col md:flex-row md:p-[40px] gap-8 md:gap-[40px] transition-transform duration-500 overflow-y-auto bg-white w-[90vw] h-auto max-w-[1000px] max-h-[90vh] border-slate-200 border rounded-[40px] mt-0 mr-0 mb-0 ml-0 pt-8 pr-8 pb-8 pl-8 relative shadow-2xl scale-95 items-center" onclick="event.stopPropagation()" id="board-modal-card" style="background-color: #ffffff !important;">
+
+      <!-- Close Button -->
+      <button onclick="closeBoardModal()" class="absolute top-6 right-6 z-50 group p-2 rounded-full bg-slate-50 hover:bg-slate-100 border border-slate-200 hover:border-slate-300 transition-all duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400 group-hover:text-slate-900 transition-colors">
+          <line x1="18" x2="6" y1="6" y2="18"></line>
+          <line x1="6" x2="18" y1="6" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Left Column: Image -->
+      <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg" alt="Board Member" class="block flex-shrink-0 bg-slate-100 relative shadow-2xl" style="width: 300px !important; height: 450px !important; min-width: 300px !important; object-fit: cover !important; object-position: top center !important; margin-right: 40px !important; border-radius: 20px !important; display: block !important" id="modal-image-element">
+
+      <!-- Right Column: Text Content -->
+      <div class="md:w-[60%] flex flex-col text-left w-full justify-center">
+        <div class="overflow-hidden">
+          <span class="uppercase block transform transition-all duration-500 delay-100 text-xs font-medium text-slate-500 tracking-widest font-google-sans-flex mb-3 translate-y-0" id="modal-role" style="color: #475569 !important;">Director</span>
+        </div>
+        <div class="overflow-hidden">
+          <h2 id="modal-name" class="md:text-5xl leading-tight transform transition-all duration-500 delay-200 text-3xl font-medium text-slate-900 tracking-tight font-google-sans-flex mb-6 translate-y-0" style="color: #000000 !important;">
+            Name Here</h2>
+        </div>
+
+        <div class="bg-slate-200 w-full h-[1px] mb-6"></div>
+
+        <!-- Description - Modified for Light Mode -->
+        <div class="overflow-hidden w-full">
+          <p class="text-[15px] leading-relaxed overflow-y-auto transform transition-all duration-500 delay-300 font-light text-slate-600 font-google-sans-flex max-w-full max-h-[300px] mt-5 translate-y-0" style="display: block !important; opacity: 1 !important; color: #334155 !important; scrollbar-width: thin; scrollbar-color: rgba(0, 0, 0, 0.2) transparent" id="modal-desc">
+            Insert the full biography and professional background of the director here.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script class="">
+    function openBoardModal(element) {
+      const overlay = document.getElementById('board-modal-overlay');
+      const card = document.getElementById('board-modal-card');
+      const modalImg = document.getElementById('modal-image-element');
+      const modalDesc = document.getElementById('modal-desc');
+
+      // Get Data
+      const name = element.getAttribute('data-name');
+      const role = element.getAttribute('data-role');
+      // CLICK-TO-SYNC IMPLEMENTATION: Prioritize the rendered image src
+      const imgElement = element.querySelector('img');
+      const image = imgElement ? imgElement.src : element.getAttribute('data-image');
+      const desc = element.getAttribute('data-desc');
+
+      // Set Content
+      document.getElementById('modal-name').textContent = name;
+      document.getElementById('modal-role').textContent = role;
+      modalImg.src = image;
+
+      // Update Description
+      if (desc) {
+        modalDesc.innerHTML = desc;
+      } else {
+        modalDesc.textContent = "Insert the full biography and professional background of the director here. This text is scrollable and sits on the new white background to ensure high readability.";
+      }
+
+      // Show Overlay
+      overlay.classList.remove('hidden');
+      // Trigger Reflow
+      void overlay.offsetWidth;
+
+      // Animate In
+      overlay.classList.remove('opacity-0');
+      card.classList.remove('scale-95');
+      card.classList.add('scale-100');
+
+      // Prevent Body Scroll
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeBoardModal(event) {
+      const overlay = document.getElementById('board-modal-overlay');
+      const card = document.getElementById('board-modal-card');
+
+      // Animate Out
+      overlay.classList.add('opacity-0');
+      card.classList.add('scale-95');
+      card.classList.remove('scale-100');
+
+      // Hide after transition
+      setTimeout(() => {
+        overlay.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 500);
+    }
+
+    // Close on escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeBoardModal();
+      }
+    });
+  </script>
+</section>
+
+    <script class="">
+        function setAdvantage(index) {
+            // Update Tabs
+            document.querySelectorAll('.advantage-tab').forEach((tab, i) => {
+                if (i === index) {
+                    tab.classList.remove('opacity-60', 'border-transparent');
+                    tab.classList.add('bg-white/5', 'border-white/10', 'opacity-100');
+                    tab.querySelector('.w-2').classList.remove('opacity-0');
+                    tab.querySelector('span').classList.replace('text-slate-400', 'text-white');
+                } else {
+                    tab.classList.add('opacity-60', 'border-transparent');
+                    tab.classList.remove('bg-white/5', 'border-white/10', 'opacity-100');
+                    tab.querySelector('.w-2').classList.add('opacity-0');
+                    tab.querySelector('span').classList.replace('text-white', 'text-slate-400');
+                }
+            });
+
+            // Update Content
+            document.querySelectorAll('.advantage-content').forEach((content, i) => {
+                if (i === index) {
+                    content.classList.remove('opacity-0', 'translate-y-4', 'pointer-events-none');
+                    content.classList.add('opacity-100', 'translate-y-0');
+                } else {
+                    content.classList.add('opacity-0', 'translate-y-4', 'pointer-events-none');
+                    content.classList.remove('opacity-100', 'translate-y-0');
+                }
+            });
+        }
+    </script>
+
+    <!-- History / Timeline (Horizontal Scroll) -->
+    
+
+    <!-- Partners Marquee -->
+    
+
+    <!-- Bond Issuances 3D Carousel -->
+    
+
+    <script class="">
+        // Simple visualization logic for the 3D carousel snippet
+        let bondIndex = 1;
+        function rotateBonds(dir) {
+            const cards = document.querySelectorAll('.bond-card');
+            // Logic to swap classes would go here for full functionality
+            // For this single block demo, we animate visually
+            cards.forEach(c => {
+               // Simulate movement
+               const currentTransform = getComputedStyle(c).transform;
+               c.style.opacity = '0.5';
+               setTimeout(() => c.style.opacity = '1', 300);
+            });
+        }
+    </script>
+
+    <!-- Strategy / Vision (Sticky) -->
+    
+
+    <!-- Footer -->
+    <footer class="bg-slate-100 pt-12 pr-6 pb-12 pl-6">
+    <!-- Floating Main Card -->
+    <div class="overflow-hidden md:pb-8 text-white bg-slate-900 max-w-[1600px] rounded-[40px] mr-auto ml-auto pt-12 pr-12 pb-12 pl-12 relative shadow-xl">
+        <!-- Optional Decorative Glow -->
+        <div class="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none">
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-20 z-10 relative gap-x-12 gap-y-12 items-start">
+
+            <!-- Column 1: Brand -->
+            <div class="flex flex-col items-start">
+                <img src="https://i.ibb.co/FL0kfkRV/Screenshot-2026-02-22-at-19-32-45-removebg-preview-1.png" alt="ECE Logo" class="w-auto object-contain mb-6 invert brightness-0">
+            </div>
+
+            <!-- Column 2: Contact Information -->
+            <div class="flex flex-col">
+                <p class="leading-relaxed text-sm font-light text-slate-300 font-google-sans-flex max-w-md">ESSEC Club of Economics Headquearter, 
+10 Avenue Bernard Hirsch  - 95000, Cergy, France</p>
+
+                <div class="grid grid-cols-[auto_1fr] gap-x-8 gap-y-3 text-sm text-slate-300 mb-10">
+                    
+                    
+
+                    <span class="font-medium text-white font-google-sans-flex">Email:</span>
+                    <span class="font-light -translate-x-6">essecclubofeconomics@gmai.com</span>
+                </div>
+
+                <div class="flex gap-4">
+                    <a href="#" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all duration-300 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 group-hover:opacity-100">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" class=""></path>
+                        </svg>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all duration-300 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 group-hover:opacity-100">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" class=""></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all duration-300 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 group-hover:opacity-100">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                            </path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                        </svg>
+                    </a>
+                    <a href="#" class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-white hover:text-slate-900 hover:border-white transition-all duration-300 group">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="opacity-80 group-hover:opacity-100">
+                            <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" class=""></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 3: Action / Whistleblowing -->
+            <div class="flex flex-col items-start lg:pl-10">
+                <h3 class="text-xl font-medium text-white tracking-tight font-google-sans-flex mb-4">Let’s Talk</h3>
+                <p class="leading-relaxed text-xs font-light text-slate-400 font-google-sans-flex max-w-sm mb-8">Please contact us through the channels below if you would like more detailed information regarding our operations.</p>
+                <button class="bg-white text-slate-900 rounded-full px-6 py-3 text-sm font-semibold flex items-center gap-2.5 hover:bg-slate-100 transition-colors shadow-lg active:scale-95 duration-200">
+
+                    <span class="">Contact Us</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Bottom Copyright Row (Moved Inside) -->
+        <div class="flex flex-col md:flex-row z-10 text-xs font-medium text-slate-400 border-white/10 border-t mt-12 pt-8 relative items-center justify-between">
+            <p class="text-white font-google-sans-flex">© 2026 ESSEC Club of Economics</p>
+            <div class="flex items-center gap-2 mt-4 md:mt-0 opacity-80 hover:opacity-100 transition-opacity">
+
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Navbar Scroll Script -->
+    <script class="">
+        const navbar = document.getElementById('navbar');
+        const navPill = document.getElementById('nav-pill');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('py-2');
+                navPill.classList.add('bg-black/80', 'border-white/20');
+                navPill.classList.remove('bg-white/5', 'border-white/10');
+            } else {
+                navbar.classList.remove('py-2');
+                navPill.classList.remove('bg-black/80', 'border-white/20');
+                navPill.classList.add('bg-white/5', 'border-white/10');
+            }
+        });
+    </script>
+
+</body></html>
